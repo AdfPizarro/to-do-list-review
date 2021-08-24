@@ -1,0 +1,57 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#updateButton {
+  display: none;
+}
+
+.clear {
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: 50px;
+}
+
+.listElement {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #d5d5d5;
+  padding: 10px;
+}
+
+.listElement:last-child {
+  border-bottom: none;
+}
+
+.inputs {
+  width: 25vw;
+}
+
+.options {
+  width: 3.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#todoList,
+.form {
+  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+  width: 30vw;
+  margin-bottom: 30px;
+}
